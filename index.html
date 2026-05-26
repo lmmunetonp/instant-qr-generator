@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickClicker - Generador de QR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>QuickClicker</h1>
+        
+        <div id="url-fields" class="field-section">
+            <label for="url-input">Enlace (URL):</label>
+            <input type="text" id="url-input" placeholder="https://ejemplo.com">
+        </div>
+
+        <button id="generate-btn">Generar Código QR</button>
+        
+        <div class="qr-output-container hidden" id="qr-output-section">
+            <div id="qr-result"></div>
+            <div class="download-actions">
+                <button id="download-img-btn" class="btn-secondary">Descargar Imagen</button>
+                <button id="download-pdf-btn" class="btn-secondary">Descargar PDF</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
