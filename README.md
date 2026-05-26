@@ -1,52 +1,18 @@
-\# QuickClicker - Fast QR Generator ⚡
+# QuickClicker ⚡
 
+Un generador de códigos QR súper rápido y sin vueltas. Lo armas, pegas tu link, lo generas y lo descargas al toque como imagen o PDF. 
 
+Lo armé con HTML, CSS y JavaScript vanilla para tener una herramienta ligera y funcional en mi portafolio.
 
-QuickClicker es una herramienta web ligera, rápida y eficiente diseñada para la generación instantánea de códigos QR personalizados. Desarrollada bajo un enfoque de Producto Mínimo Viable (MVP), permite a los usuarios transformar enlaces en códigos QR listos para producción con opciones de descarga inmediata.
+## 🚀 Lo que hace ahorita (V1.0)
+- Convierte cualquier enlace (URL) en código QR al instante.
+- Botón para descargar el QR como imagen (`.png`).
+- Botón para exportar el QR directo a un `.pdf` limpio.
 
+## 🛠️ Tecnologías
+- HTML5 / CSS3 / JavaScript (ES6)
+- QRCode.js (para pintar el QR)
+- html2pdf.js (para la exportación a PDF)
 
-
-El proyecto está estructurado estratégicamente para ser escalable, permitiendo la integración ordenada de nuevas funcionalidades en futuras versiones.
-
-
-
-\## 🚀 Características (V1.0 - Actual)
-
-
-
-\- \*\*Generación Instantánea:\*\* Codificación de URLs en tiempo real utilizando JavaScript vanilla.
-
-\- \*\*Exportación Versátil:\*\*
-
-&#x20; - Descarga directa en formato de imagen (\*\*PNG\*\*).
-
-&#x20; - Exportación limpia a documento de alta resolución (\*\*PDF\*\*).
-
-\- \*\*Interfaz Fluida:\*\* Diseño responsivo, limpio y enfocado en la experiencia de usuario (UX).
-
-
-
-\## 🛠️ Tecnologías Utilizadas
-
-
-
-\- \*\*Frontend:\*\* HTML5, CSS3 (Flexbox \& Responsive Design), JavaScript (ES6+).
-
-\- \*\*Librerías Externas (CDNs):\*\*
-
-&#x20; - \[QRCode.js](https://davidshimjs.github.io/qrcodejs/) - Procesamiento y renderizado del código QR.
-
-&#x20; - \[html2pdf.js](https://rawgit.com/eKoopmans/html2pdf/master/README.md) - Conversión y optimización de captura a PDF.
-
-
-
-\## 📈 Roadmap / Próximas Actualizaciones (V2.0)
-
-
-
-El código base ya cuenta con la arquitectura preparada para la siguiente iteración mayor:
-
-\- \[ ] \*\*Modo vCard (Tarjetas de presentación digitales):\*\* Formulario dinámico para ingresar datos personales (Nombre, Puesto, Teléfono, Email) y compilar un QR escaneable que agregue el contacto automáticamente al smartphone.
-
-
-
+## 🔮 Lo que viene (V2.0)
+El código ya está estructurado y preparado para la siguiente actualización: un generador de tarjetas de presentación (vCard) para que al escanear el QR se guarden tus datos de contacto automáticamente en el celular.
